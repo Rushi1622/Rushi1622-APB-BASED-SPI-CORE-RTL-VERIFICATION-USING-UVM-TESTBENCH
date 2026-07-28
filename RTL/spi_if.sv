@@ -1,6 +1,6 @@
 interface spi_if (input bit clk);
 	logic SCLK;
-	
+	//we are looking from master so miso is input and all other are outputs 
 	logic SS;
 	logic  MOSI; //spi communicate serially it transfer data bit by bit
 	logic  MISO;	
